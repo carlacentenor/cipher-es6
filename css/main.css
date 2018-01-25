@@ -1,15 +1,27 @@
-.h100{
+.h100 {
   height: 90vh;
 }
 
-img{
+img {
   width: 50%;
 }
 
-.h30{
-  height: 30vh;
+.h30 {
+  height: 20vh;
 }
 
-.border-grey{
+.border-grey {
   border: 1px solid #ced4da;
+}
+
+@media (min-width: 576px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  img {
+    width: 60%;
+  }
 }
