@@ -1,0 +1,15 @@
+.h100{
+  height: 90vh;
+}
+
+img{
+  width: 50%;
+}
+
+.h30{
+  height: 30vh;
+}
+
+.border-grey{
+  border: 1px solid #ced4da;
+}
